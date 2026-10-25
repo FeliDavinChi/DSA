@@ -1,4 +1,7 @@
 # DSA
+
+My LeetCode practice archive for data structures and algorithms. Most solutions are in Java, with the Two Sum solution in C++.
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
