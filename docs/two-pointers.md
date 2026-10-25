@@ -1,0 +1,8 @@
+# Two pointers and endpoint choices
+
+For an inward scan, explain what each move lets you discard. Sorted sums discard values by order, palindrome scans discard matched characters, and the container problem discards the shorter endpoint using a bound.
+
+- [Two Sum II](../0167-two-sum-ii-input-array-is-sorted/) starts at the ends of the sorted array. When the sum is too small, every pair with the current left value and a nearer right value is also too small. Advance the left pointer. When the sum is too large, apply the symmetric argument and move the right pointer. Return one-based indices. For `[2, 3, 4]` and target `6`, the answer is `[1, 3]`.
+- [3Sum](../0015-3sum/) sorts the input, fixes one value, and searches the remainder with the same endpoint logic. Skip duplicate fixed values and, after recording a match, skip duplicate endpoint values so each triplet appears once. Four zeros yield one triplet. Sorting and the repeated scans take `O(n²)` time overall.
+- [Valid Palindrome](../0125-valid-palindrome/) skips non-alphanumeric characters before comparing endpoints without regard to case. Check that the pointers still describe an unprocessed pair after skipping. A string containing only punctuation is a palindrome after filtering.
+- [Container With Most Water](../0011-container-with-most-water/) records the area at the current endpoints, then moves an endpoint of smaller or equal height. Holding the shorter endpoint while narrowing the width cannot improve the area because the shorter height already caps it. With two bars, evaluate their only area before moving either pointer.
