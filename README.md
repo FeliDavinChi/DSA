@@ -6,6 +6,12 @@ My LeetCode practice archive for data structures and algorithms. Most solutions 
 
 Each numbered directory contains a problem README and its submitted source file. The leading digits are the LeetCode problem number. For example, `0001-two-sum/` contains `README.md` and `0001-two-sum.cpp`.
 
+## Where to start
+
+- [Two Sum](0001-two-sum/) for hash table practice.
+- [Container With Most Water](0011-container-with-most-water/) for two-pointer practice.
+- [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating-characters/) for sliding-window practice.
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
