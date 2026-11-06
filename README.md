@@ -12,6 +12,10 @@ Each numbered directory contains a problem README and its submitted source file.
 - [Container With Most Water](0011-container-with-most-water/) for two-pointer practice.
 - [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating-characters/) for sliding-window practice.
 
+## Try a solution
+
+Open the problem’s README from its directory, then select the source file’s language in LeetCode. Paste the source into the editor, run the examples or your own inputs, and submit it to the judge. Each file is a standalone LeetCode submission.
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
