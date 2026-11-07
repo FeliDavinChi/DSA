@@ -2,6 +2,8 @@
 
 My LeetCode practice archive for data structures and algorithms. Most solutions are in Java, with the Two Sum solution in C++.
 
+Browse the [LeetHub topic index](#leetcode-topics) to find problems by topic. A problem can appear under several topics. Open its source file to see which approach the submission uses.
+
 ## Repository layout
 
 Each numbered directory contains a problem README and its submitted source file. The leading digits are the LeetCode problem number. For example, `0001-two-sum/` contains `README.md` and `0001-two-sum.cpp`.
