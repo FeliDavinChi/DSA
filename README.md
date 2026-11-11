@@ -14,6 +14,16 @@ Each numbered directory contains a problem README and its submitted source file.
 - [Container With Most Water](0011-container-with-most-water/) for two-pointer practice.
 - [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating-characters/) for sliding-window practice.
 
+## Study guides
+
+- [Hash lookup and set membership](docs/hash-lookup.md) to detect duplicates, look up complements, and expand consecutive runs.
+- [Counting, grouping, and scoped duplicates](docs/counting-and-grouping.md) to compare anagram counts and check Sudoku regions.
+- [Two pointers and endpoint choices](docs/two-pointers.md) to justify each pointer move in sorted sums, palindromes, and container areas.
+- [Sliding windows for uniqueness and permutations](docs/window-membership.md) to track the last position of a character or the counts in a fixed-width window.
+- [Sliding windows for replacement and coverage](docs/window-feasibility.md) to choose when to shrink and record a candidate window.
+- [Running minima and prefix-suffix passes](docs/running-summaries.md) to carry forward stock minima, array products, and height bounds.
+- [Selecting the most frequent values](docs/top-k-frequency.md) to choose between a bounded min-heap and frequency buckets.
+
 ## Try a solution
 
 Open the problem’s README from its directory, then select the source file’s language in LeetCode. Paste the source into the editor, run the examples or your own inputs, and submit it to the judge. Each file is a standalone LeetCode submission.
